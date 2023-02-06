@@ -6,6 +6,7 @@ If you need a template for your tribute page, maybe this template is a solution 
 - CSS
 - JavaScript
 - Google Fonts (https://fonts.google.com/)
+- Photos Source (https://www.theguardian.com/science/2009/sep/13/norman-borlaug-obituary)
 
 ## Features
 
