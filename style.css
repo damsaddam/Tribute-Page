@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  position: fixed;
+  z-index: 1;
+}
+
+.header .link {
+  display: flex;
+  justify-content: center;
+}
+
+.header .link a {
+  text-decoration: none;
+  font-size: 1em;
+  margin: 0 0 1% 0;
+  color: black;
+  font-family: 'Mukta', sans-serif;
+  font-weight: bold;
+}
+
+.header .link a:hover {
+  color: #00b3ff;
+  cursor: pointer;
+}
+
+.judul {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0 0 1% 0;
+}
+
+.judul h1 {
+  font-family: 'Lobster Two', cursive;
+}
+
+.judul p {
+  font-family: 'Mukta', sans-serif;
+  font-size: 1.1em;
+}
+/* End Header */
+
+/* Body-image */
+.body-image {
+  position: relative;
+  top: 170px;
+  width: 100%;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  box-shadow: rgb(255, 255, 255) 0px 2px 9px 2px;
+  border-radius: 5px;
+  width: 60%;
+  height: 50%;
+}
+
+.img-caption {
+  color: rgb(255, 217, 0);
+  padding: 1% 0 1% 0;
+  font-style: italic;
+  font-size: 1.1em;
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+}
+/* End Body-image */
+
+/* Tribute Info */
+.tribute-info {
+  width: 100%;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  color: black;
+  position: relative;
+  top: 200px;
+  padding-top: 2%;
+  font-family: 'Mukta', sans-serif;
+}
+
+.tribute-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1%;
+}
+
+.tribute-info h3 {
+  padding: 0 2% 0 2%;
+  font-size: 1.3em;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+.tribute-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  text-align: justify;
+  width: 70%;
+}
+
+.box ul {
+  position: relative;
+  background: black;
+}
+
+.box ul li {
+  list-style: none;
+  padding: 10px;
+  width: 100%;
+  background: black;
+  color: white;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s;
+}
+
+.box ul li:hover {
+  transform: scale(1.2);
+  z-index: 2;
+  background: #00b3ff;
+}
+
+.box ul li span {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background: white;
+  color: black;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.tribute-info .tribute-link p {
+  padding: 1% 0 0 0;
+  margin: 0;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.tribute-info .tribute-link a {
+  color: #00b3ff;
+  cursor: pointer;
+}
+
+/* End Tribute Info */
